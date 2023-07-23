@@ -1,14 +1,19 @@
-import React from 'react'
-import './App.css'
-import BaseLayout from './components/Layout'
+import React from "react";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import BaseLayout from "./components/Layout";
+import "./App.css";
+import HomePage from "./components/home";
 
 function App() {
-
   return (
-    <>
-      <BaseLayout />
-    </>
-  )
+    <BrowserRouter>
+      <BaseLayout>
+        <Routes>
+          <Route path="/" element={<HomePage />}></Route>
+        </Routes>
+      </BaseLayout>
+    </BrowserRouter>
+  );
 }
 
-export default App
+export default App;
