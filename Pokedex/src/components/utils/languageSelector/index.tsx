@@ -1,13 +1,13 @@
 import React, { useState } from "react";
 import { Dropdown } from "react-bootstrap";
 
-export interface CustomDropdownItemProps {
+export interface LanguageItemProps {
   id: string;
   img: string;
   onSelect: (id: string) => void;
 }
 
-const CustomDropdownItem: React.FC<CustomDropdownItemProps> = ({
+const LanguageSelector: React.FC<LanguageItemProps> = ({
   id,
   img,
   onSelect,
@@ -33,4 +33,4 @@ const CustomDropdownItem: React.FC<CustomDropdownItemProps> = ({
   );
 };
 
-export default CustomDropdownItem;
+export default LanguageSelector;

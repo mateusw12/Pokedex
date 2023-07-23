@@ -12,7 +12,7 @@ import { POKE_TYPES } from "../../../constant/types";
 import { POKEMON_GO } from "../../../constant/pokemon-go";
 import "../style.css";
 import { Dropdown } from "react-bootstrap";
-import CustomDropdownItem from "../../utils/languageSelector";
+import LanguageSelector from "../../utils/languageSelector";
 import { LANGUAGES } from "../../../constant/language";
 import { Language } from "../../../interface/language";
 
@@ -187,7 +187,7 @@ const Header = () => {
 
                   <Dropdown.Menu style={{ minWidth: "10px" }}>
                     {LANGUAGES.map((item) => (
-                      <CustomDropdownItem
+                      <LanguageSelector
                         key={item.id}
                         id={item.id}
                         img={item.img}
