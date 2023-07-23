@@ -38,6 +38,11 @@
     height: 7vh;
 }
 
+.dark-mode .footer {
+    grid-area: footer;
+    background-color: rgb(33, 37, 41);
+}
+
 .copyright {
     display: flex;
     justify-content: center;
