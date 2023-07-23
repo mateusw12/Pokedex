@@ -1,4 +1,4 @@
-import React, { useContext, useState } from "react";
+import React, { useEffect, useState } from "react";
 import Container from "react-bootstrap/Container";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
@@ -6,7 +6,6 @@ import { FaMoon, FaSun } from "react-icons/fa";
 import { AiOutlineInfoCircle } from "react-icons/ai";
 import { HiOutlineLightBulb } from "react-icons/hi";
 import NavDropdown from "react-bootstrap/NavDropdown";
-import ThemeContext from "../../theme";
 import { POKE_REGIONS } from "../../../constant/region";
 import Link from "../../utils/link";
 import { POKE_TYPES } from "../../../constant/types";
@@ -18,7 +17,17 @@ import { LANGUAGES } from "../../../constant/language";
 import { Language } from "../../../interface/language";
 
 const Header = () => {
-  const { darkMode, toggleDarkMode } = useContext(ThemeContext);
+  const [darkMode, setDarkMode] = useState(false);
+
+  useEffect(() => {
+    const body = document.querySelector("body");
+    if (darkMode) {
+      body && body.classList.add("dark-mode");
+    } else {
+      body && body.classList.remove("dark-mode");
+    }
+  }, [darkMode]);
+
   const [selectedItem, setSelectedItem] = useState<Language>(LANGUAGES[0]);
 
   const handleSelectItem = (eventKey: string) => {
@@ -26,6 +35,10 @@ const Header = () => {
       (item) => item.id === eventKey
     ) as Language;
     setSelectedItem(selectedItem);
+  };
+
+  const handleDarkModeToggle = () => {
+    setDarkMode(!darkMode);
   };
 
   return (
@@ -146,7 +159,7 @@ const Header = () => {
                 </NavDropdown>
               </Nav>
               <Nav>
-                <Nav.Link onClick={() => toggleDarkMode(!darkMode)}>
+                <Nav.Link onClick={() => handleDarkModeToggle()}>
                   {darkMode ? <FaSun /> : <FaMoon />}
                 </Nav.Link>
                 <Dropdown>

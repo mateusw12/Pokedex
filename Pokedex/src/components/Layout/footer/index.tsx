@@ -1,15 +1,27 @@
-import React, { useContext } from "react";
-import ThemeContext from "../../theme";
+import React, { useEffect, useState } from "react";
 import "../style.css";
 
 const Footer = () => {
-  const { darkMode } = useContext(ThemeContext);
+  const [darkMode, setDarkMode] = useState(false);
+
+  useEffect(() => {
+    const handleDarkModeChange = () => {
+      setDarkMode(document.body.classList.contains("dark-mode"));
+    };
+
+    handleDarkModeChange();
+    const observer = new MutationObserver(handleDarkModeChange);
+    observer.observe(document.body, { attributes: true });
+    return () => {
+      observer.disconnect();
+    };
+  }, []);
 
   return (
     <>
-      <div className={darkMode ? "dark-mode-footer" : "footer"}>
-        <p className={darkMode ? "dark-mode-copyright" : "copyright"}>
-          <div> ©️ - Todos os direitos reservado</div>
+      <div className="footer">
+        <p className="copyright">
+          <div> ©️ - Todos os direitos reservados</div>
           <img
             src={
               darkMode
@@ -18,9 +30,7 @@ const Footer = () => {
             }
             alt="Pikachu ícone"
             height="40"
-            className={
-              darkMode ? "dark-mode-footer-format-image" : "footer-format-image"
-            }
+            className="footer-format-image"
           />
         </p>
       </div>

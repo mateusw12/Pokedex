@@ -1,0 +1,15 @@
+.home-page {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.pokemon-font {
+    font-family: "Pokemon Solid", cursive;
+    font-size: 40px;
+    color: #f6bf1b;
+}
+
+.pokemon-blue {
+    color: #007bcc;
+}

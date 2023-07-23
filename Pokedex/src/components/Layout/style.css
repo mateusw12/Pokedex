@@ -1,3 +1,8 @@
+.dark-mode {
+    background-color: #111;
+    color: #fff;
+}
+
 .grid-container {
     display: grid;
     grid-template-columns: auto 1fr;
@@ -33,27 +38,12 @@
     height: 7vh;
 }
 
-.dark-mode-footer {
-    grid-area: footer;
-    background-color: #212529;
-    height: 7vh;
-    padding: 5px;
-}
-
 .copyright {
     display: flex;
     justify-content: center;
     align-items: center;
     color: #f0f0f0;
     padding-bottom: 10px;
-    gap: 10px;
-}
-
-.dark-mode-copyright {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: #f0f0f0;
     gap: 10px;
 }
 
@@ -70,7 +60,7 @@
     padding-bottom: 13px;
 }
 
-.dark-mode-footer-format-image {
+.dark-mode .footer-format-image {
     transform: scale(1.6);
     padding-bottom: 2px;
 }
