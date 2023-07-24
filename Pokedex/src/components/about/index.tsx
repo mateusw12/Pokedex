@@ -4,10 +4,6 @@ import "./style.css";
 const About = () => {
   return (
     <div className="about-container">
-      <div className="about-image">
-        <img src="/assets/about/meowth.png" alt="Meowth" />
-        <img src="/assets/about/charmander.png" alt="Charmander" />
-      </div>
       <div className="about-text">
         <h1>Sobre o Site:</h1>
         <p>
@@ -44,6 +40,10 @@ const About = () => {
           página de sugestões e suporte e nos contacte.
         </p>
         <h5> Divirta-se explorando e treinando seus Pokémon favoritos!</h5>
+      </div>
+      <div className="about-image">
+        <img src="/assets/about/meowth.png" alt="Meowth" />
+        <img src="/assets/about/charmander.png" alt="Charmander" />
       </div>
     </div>
   );

@@ -15,6 +15,14 @@
     overflow-y: hidden;
 }
 
+.main {
+    grid-area: content;
+    padding: 20px;
+    overflow-y: auto;
+    overflow-x: hidden;
+    /* Adicionado para evitar scroll horizontal */
+}
+
 .limit-item-dropdown .dropdown-menu {
     max-height: 250px;
     overflow-y: auto;
@@ -23,12 +31,6 @@
 .header {
     grid-area: header;
     margin: 0;
-}
-
-.main {
-    grid-area: content;
-    padding: 20px;
-    overflow-y: auto;
 }
 
 .footer {
