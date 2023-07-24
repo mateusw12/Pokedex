@@ -57,3 +57,14 @@ export const POKEMON_DRAGON_ADVANTAGE = [
     "2": "Gelo",
   },
 ];
+
+export const POKEMON_ELETRIC_ADVANTAGE = [
+  {
+    "1": "Água",
+    "2": "Terrestre",
+    "3": "Nenhum",
+  },
+  {
+    "1": "Voador",
+  },
+];

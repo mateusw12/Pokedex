@@ -3,6 +3,7 @@ import BugType from "./bug";
 import DarkType from "./dark";
 import "./style.css";
 import DragonType from "./dragon";
+import EletricType from "./eletric";
 
 const Types = () => {
   const { type } = useParams();
@@ -20,6 +21,10 @@ const Types = () => {
       ) : type === "dragon" ? (
         <>
           <DragonType />
+        </>
+      ) : type === "eletric" ? (
+        <>
+          <EletricType />
         </>
       ) : (
         <></>

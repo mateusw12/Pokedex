@@ -68,3 +68,26 @@ export const POKEMON_DRAGON_TYPE: PokemonType[] = [
     img: "/assets/types/dragon/hydragon.png",
   },
 ];
+
+export const POKEMON_ELETRIC_TYPE: PokemonType[] = [
+  {
+    key: "pikachu",
+    name: "Pikachu",
+    img: "/assets/types/eletric/pikachu.png",
+  },
+  {
+    key: "raikou",
+    name: "Raikou",
+    img: "/assets/types/eletric/raikou.png",
+  },
+  {
+    key: "electvire",
+    name: "Electvire",
+    img: "/assets/types/eletric/electivire.png",
+  },
+  {
+    key: "zapdos",
+    name: "Zapdos",
+    img: "/assets/types/eletric/zapdos.png",
+  },
+];

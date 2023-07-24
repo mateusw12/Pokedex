@@ -15,7 +15,7 @@ const DragonType = () => {
         <div className="type-container">
           <div>
             <div className="type-title">
-              <h1>Tipo Sombrio:</h1>
+              <h1>Tipo Dragão:</h1>
             </div>
             <div className="type-text">
               <p>
@@ -52,7 +52,7 @@ const DragonType = () => {
           />
         </Col>
         <Col style={{ paddingTop: 20 }} xs={24} offset={4} sm={8}>
-          <img src="/assets/type-insignia/Dragão.png" alt="Tipo Sombrio" />
+          <img src="/assets/type-insignia/Dragão.png" alt="Tipo Dragão" />
         </Col>
       </Row>
     </>
