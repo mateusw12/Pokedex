@@ -199,7 +199,7 @@ const Header = () => {
                 <Nav.Link>
                   <Link path="/about" children={<AiOutlineInfoCircle />} />
                 </Nav.Link>
-                <Nav.Link disabled={true}>
+                <Nav.Link>
                   <Link
                     path="/suggestion"
                     children={
