@@ -106,11 +106,12 @@ const Header = () => {
                 <NavDropdown
                   title="Natureza"
                   id="basic-nav-dropdown"
-                  className="limit-item-dropdown"
+                  className="limit-item-dropdown limit-item-dropdown-natureza"
                 >
                   {POKE_TYPES.map((type) => (
                     <Link
-                      path={type.disabled ? "" : `/natural/${type.path}`}
+                      key={type.key}
+                      path={`/type/${type.path}`}
                       children={
                         <NavDropdown.Item
                           disabled={type.disabled}

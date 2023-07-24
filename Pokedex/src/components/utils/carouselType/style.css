@@ -1,0 +1,41 @@
+.custom-carousel-dots .slick-dots {
+    position: absolute;
+    bottom: 0px;
+}
+
+.custom-carousel-dots .slick-dots li button {
+    background-color: #000;
+}
+
+.custom-carousel-dots .slick-dots li.slick-active button {
+    background-color: silver;
+}
+
+.ant-carousel .slick-slide {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.content-carousel {
+    background: transparent;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.content-carousel img {
+    width: 250px;
+    height: 250px;
+    padding: 10px;
+}
+
+.dark-mode .content-carousel {
+    color: #fff;
+}
+
+.dark-mode .custom-carousel-dots .slick-dots li button {
+    background-color: #fff;
+}
