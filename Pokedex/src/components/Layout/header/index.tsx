@@ -15,7 +15,6 @@ import { Dropdown } from "react-bootstrap";
 import LanguageSelector from "../../utils/languageSelector";
 import { LANGUAGES } from "../../../constant/language";
 import { Language } from "../../../interface/language";
-import { Tooltip } from "antd";
 
 const Header = () => {
   const [darkMode, setDarkMode] = useState(false);
@@ -79,7 +78,7 @@ const Header = () => {
                   <Link path={"/mega"} children={"Mega Evoluções"} />
                 </Nav.Link>
                 <Nav.Link
-                  href="https://www.google.com/"
+                  href="https://www.pokemon.com/br/episodios-pokemon/"
                   target="_blanck"
                   rel="noopener noreferrer"
                 >
