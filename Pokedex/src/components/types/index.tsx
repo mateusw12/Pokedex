@@ -1,5 +1,7 @@
 import { useParams } from "react-router-dom";
 import BugType from "./bug";
+import DarkType from "./dark";
+import "./style.css";
 
 const Types = () => {
   const { type } = useParams();
@@ -9,6 +11,10 @@ const Types = () => {
       {type === "bug" ? (
         <>
           <BugType />
+        </>
+      ) : type === "dark" ? (
+        <>
+          <DarkType />
         </>
       ) : (
         <></>

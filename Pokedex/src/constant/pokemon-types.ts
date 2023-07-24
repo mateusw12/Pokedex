@@ -22,3 +22,26 @@ export const POKEMON_BUG_TYPE: PokemonType[] = [
     img: "/assets/types/bug/sunflora.png",
   },
 ];
+
+export const POKEMON_DARK_TYPE: PokemonType[] = [
+  {
+    key: "gastly",
+    name: "Gastly",
+    img: "/assets/types/dark/gastly.png",
+  },
+  {
+    key: "darkrai",
+    name: "Darkrai",
+    img: "/assets/types/dark/darkrai.png",
+  },
+  {
+    key: "absol",
+    name: "Absol",
+    img: "/assets/types/dark/absol.webp",
+  },
+  {
+    key: "umbreo",
+    name: "Umbreo",
+    img: "/assets/types/dark/umbreo.png",
+  },
+];

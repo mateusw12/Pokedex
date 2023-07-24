@@ -28,3 +28,18 @@ export const POKEMON_BUG_ADVANTAGE = [
     "1": "Psiquico",
   },
 ];
+
+export const POKEMON_DARK_ADVANTAGE = [
+  {
+    "1": "Fantasma",
+    "2": "Inseto",
+    "3": "Psiquico",
+  },
+  {
+    "1": "Psiquico",
+    "2": "Fada",
+  },
+  {
+    "2": "Lutador",
+  },
+];

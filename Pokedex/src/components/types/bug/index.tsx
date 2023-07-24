@@ -52,7 +52,7 @@ const BugType = () => {
           />
         </Col>
         <Col style={{ paddingTop: 20 }} xs={24} offset={4} sm={8}>
-          <img src="/public/assets/types/bug/inseto.png" alt="Tipo Inseto" />
+          <img src="/assets/type-insignia/Inseto.png" alt="Tipo Inseto" />
         </Col>
       </Row>
     </>

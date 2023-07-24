@@ -1,0 +1,47 @@
+.type-container {
+    grid-area: content;
+    padding: 20px;
+    overflow-x: hidden;
+}
+
+@media (min-width: 768px) {
+    .type-container {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+        align-items: center;
+    }
+}
+
+.type-text {
+    text-align: justify;
+    max-width: 100%;
+    font-size: 16px;
+    word-break: break-word;
+}
+
+.type-image {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    max-width: 100%;
+    gap: 20px;
+}
+
+.type-image img {
+    max-height: 300px;
+}
+
+.type-title img {
+    max-width: 30px;
+    max-height: 30px;
+}
+
+.type-title {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 24px;
+    font-weight: bold;
+}
