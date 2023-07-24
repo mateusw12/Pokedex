@@ -114,3 +114,25 @@ export const POKEMON_FAIRY_TYPE: PokemonType[] = [
     img: "/assets/types/fairy/togekiss.png",
   },
 ];
+export const POKEMON_FIGHTING_TYPE: PokemonType[] = [
+  {
+    key: "machop",
+    name: "Machop",
+    img: "/assets/types/fighting/machop.png",
+  },
+  {
+    key: "hitmonlee",
+    name: "Hitmonlee",
+    img: "/assets/types/fighting/hitmonlee.png",
+  },
+  {
+    key: "lucario",
+    name: "Lucario",
+    img: "/assets/types/fighting/lucario.png",
+  },
+  {
+    key: "hariyama",
+    name: "Hariyama",
+    img: "/assets/types/fighting/haryama.webp",
+  },
+];

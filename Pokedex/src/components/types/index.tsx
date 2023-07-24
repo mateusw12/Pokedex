@@ -5,6 +5,7 @@ import "./style.css";
 import DragonType from "./dragon";
 import EletricType from "./eletric";
 import FairyType from "./fairy";
+import FightingType from "./fighting";
 
 const Types = () => {
   const { type } = useParams();
@@ -31,6 +32,8 @@ const Types = () => {
         <>
           <FairyType />
         </>
+      ) : type === "fighting" ? (
+        <> <FightingType/></>
       ) : (
         <> </>
       )}

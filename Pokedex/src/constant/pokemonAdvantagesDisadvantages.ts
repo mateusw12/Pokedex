@@ -83,3 +83,25 @@ export const POKEMON_FAIRY_ADVANTAGE = [
     "1": "Dragão",
   },
 ];
+
+export const POKEMON_FIGHTING_ADVANTAGE = [
+  {
+    "1": "Sombrio",
+    "2": "Fada",
+    "3": "Nenhum",
+  },
+  {
+    "1": "Gelo",
+    "2": "Voador",
+  },
+  {
+    "1": "Normal",
+    "2": "Psíquico",
+  },
+  {
+    "1": "Pedra",
+  },
+  {
+    "1": "Aço",
+  },
+];
