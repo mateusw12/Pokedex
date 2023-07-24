@@ -2,6 +2,7 @@ import { useParams } from "react-router-dom";
 import BugType from "./bug";
 import DarkType from "./dark";
 import "./style.css";
+import DragonType from "./dragon";
 
 const Types = () => {
   const { type } = useParams();
@@ -15,6 +16,10 @@ const Types = () => {
       ) : type === "dark" ? (
         <>
           <DarkType />
+        </>
+      ) : type === "dragon" ? (
+        <>
+          <DragonType />
         </>
       ) : (
         <></>

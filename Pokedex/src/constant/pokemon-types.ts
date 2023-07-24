@@ -45,3 +45,26 @@ export const POKEMON_DARK_TYPE: PokemonType[] = [
     img: "/assets/types/dark/umbreo.png",
   },
 ];
+
+export const POKEMON_DRAGON_TYPE: PokemonType[] = [
+  {
+    key: "dratini",
+    name: "Dratini",
+    img: "/assets/types/dragon/dratini.png",
+  },
+  {
+    key: "salamence",
+    name: "Salamence",
+    img: "/assets/types/dragon/salamence.png",
+  },
+  {
+    key: "garchomp",
+    name: "Garchomp",
+    img: "/assets/types/dragon/garchomp.png",
+  },
+  {
+    key: "hydragon",
+    name: "Hydragon",
+    img: "/assets/types/dragon/hydragon.png",
+  },
+];

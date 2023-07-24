@@ -43,3 +43,17 @@ export const POKEMON_DARK_ADVANTAGE = [
     "2": "Lutador",
   },
 ];
+
+export const POKEMON_DRAGON_ADVANTAGE = [
+  {
+    "1": "Dragão",
+    "2": "Dragão",
+    "3": "Nenhum",
+  },
+  {
+    "2": "Fada",
+  },
+  {
+    "2": "Gelo",
+  },
+];
