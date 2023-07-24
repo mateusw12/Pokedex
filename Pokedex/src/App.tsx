@@ -11,7 +11,7 @@ function App() {
     <BrowserRouter>
       <BaseLayout>
         <Routes>
-          <Route path="/home" element={<HomePage />}></Route>
+          <Route path="/" element={<HomePage />}></Route>
           <Route path="/about" element={<About />}></Route>
           <Route path="/suggestion" element={<Suggestion />}></Route>
           <Route path="/type/:type" element={<Types />}></Route>

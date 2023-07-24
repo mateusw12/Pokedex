@@ -56,7 +56,7 @@ const Header = () => {
           <Container>
             <Nav.Link>
               <Link
-                path={"/home"}
+                path={"/"}
                 children={
                   <img
                     src="/assets/header/pokemon-logo.png"
