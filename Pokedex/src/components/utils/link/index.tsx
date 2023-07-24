@@ -1,4 +1,4 @@
-import React, { ReactNode } from "react";
+import { ReactNode } from "react";
 import { Link as ReactRouterLink } from "react-router-dom";
 import "./style.css";
 
