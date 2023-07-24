@@ -1,6 +1,6 @@
 import { Col, Row } from "antd";
 import CarouselType from "../../utils/carouselType";
-import "./style.css";
+import "../style.css";
 import Table from "../../utils/table";
 import {
   DATA_TABLE_COLUMN,
@@ -12,23 +12,33 @@ const BugType = () => {
   return (
     <>
       <Row>
-        <div className="bug-container">
+        <div className="type-container">
           <div>
-            <div className="bug-title">
+            <div className="type-title">
               <h1>Tipo Inseto:</h1>
             </div>
-            <div className="bug-text">
+            <div className="type-text">
               <p>
-                O tipo Inseto foi introduzido pela primeira vez na 1ª Geração,
-                em 1996, quando foram criados 12 Pokémon desse tipo. Conforme as
-                gerações avançaram, mais criaturas desse tipo foram sendo
-                adicionadas, chegando a um total de 95 Pokémon atualmente. Esse
-                número aumentou significativamente na 5ª Geração, que adicionou
-                18 Pokémon do tipo Inseto à lista.
+                Os tipos inseto são uma das categorias mais fascinantes e
+                diversificadas no universo Pokémon. Com uma variedade
+                impressionante de criaturas que se assemelham a besouros,
+                borboletas, joaninhas e outros insetos, esse grupo apresenta uma
+                série de desafios únicos e habilidades distintas. Movimentos
+                como "Ferrão Venenoso" e "Redemoinho de Pó" são apenas alguns
+                exemplos das táticas peculiares utilizadas por essas pequenas
+                maravilhas da natureza. Além disso, muitos deles passam por
+                metamorfoses incríveis, evoluindo para formas ainda mais
+                poderosas. Embora nem sempre sejam os mais fortes, os Pokémon do
+                tipo inseto certamente são dignos de admiração pela sua
+                capacidade de adaptação e perseverança em meio a um mundo
+                repleto de desafios. Desbravar a região em busca dessas
+                criaturas é uma experiência enriquecedora para todo treinador,
+                que aprenderá a valorizar a beleza e a importância desses
+                pequenos seres na intricada teia da vida Pokémon.
               </p>
             </div>
           </div>
-          <div className="bug-image">
+          <div className="type-image">
             <CarouselType pokemons={POKEMON_BUG_TYPE} />
           </div>
         </div>
