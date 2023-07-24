@@ -91,3 +91,26 @@ export const POKEMON_ELETRIC_TYPE: PokemonType[] = [
     img: "/assets/types/eletric/zapdos.png",
   },
 ];
+
+export const POKEMON_FAIRY_TYPE: PokemonType[] = [
+  {
+    key: "clefable",
+    name: "Clefable",
+    img: "/assets/types/fairy/clefable.png",
+  },
+  {
+    key: "gardevoir",
+    name: "Gardevoir",
+    img: "/assets/types/fairy/gardevoir.png",
+  },
+  {
+    key: "rapidash_galar",
+    name: "Rapidash de Galar",
+    img: "/assets/types/fairy/rapidash_galar.png",
+  },
+  {
+    key: "togekiss",
+    name: "Togekiss",
+    img: "/assets/types/fairy/togekiss.png",
+  },
+];

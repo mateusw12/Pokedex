@@ -68,3 +68,18 @@ export const POKEMON_ELETRIC_ADVANTAGE = [
     "1": "Voador",
   },
 ];
+
+export const POKEMON_FAIRY_ADVANTAGE = [
+  {
+    "1": "Sombrio",
+    "2": "Aço",
+    "3": "Dragão",
+  },
+  {
+    "1": "Lutador",
+    "2": "Venenoso",
+  },
+  {
+    "1": "Dragão",
+  },
+];
