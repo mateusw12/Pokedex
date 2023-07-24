@@ -21,3 +21,10 @@
 .custom-table {
     box-shadow: 0 8px 8px rgba(0, 0, 0, 0.1);
 }
+
+@media (max-width: 768px) {
+    .ant-table {
+        width: 100%;
+        overflow-x: auto;
+    }
+}
