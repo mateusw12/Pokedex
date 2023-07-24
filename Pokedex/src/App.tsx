@@ -3,7 +3,6 @@ import BaseLayout from "./components/Layout";
 import HomePage from "./components/home";
 import About from "./components/about";
 import Suggestion from "./components/suggestion";
-import "bootstrap/dist/css/bootstrap.min.css";
 import "./App.css";
 
 function App() {
