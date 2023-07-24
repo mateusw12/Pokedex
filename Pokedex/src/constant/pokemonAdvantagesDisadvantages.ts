@@ -1,6 +1,6 @@
 import { TableColumn } from "../components/utils/table";
 
-export const DATA_TABLE_COLUMN: TableColumn<any>[] = [
+export const DATA_TABLE_COLUMN: TableColumn[] = [
   {
     dataIndex: "1",
     name: "Vantagens",
