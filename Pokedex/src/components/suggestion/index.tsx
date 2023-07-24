@@ -59,7 +59,7 @@ const Suggestion = () => {
         </Col>
         <Col xs={24} md={12}>
           <img
-            src="/public/assets/suggestion/charizard.webp"
+            src="/assets/suggestion/charizard.webp"
             alt="Imagem do Pokemon"
             style={{ width: "100%", height: "auto" }}
           />

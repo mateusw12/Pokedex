@@ -15,6 +15,7 @@ import { Dropdown } from "react-bootstrap";
 import LanguageSelector from "../../utils/languageSelector";
 import { LANGUAGES } from "../../../constant/language";
 import { Language } from "../../../interface/language";
+import { Tooltip } from "antd";
 
 const Header = () => {
   const [darkMode, setDarkMode] = useState(false);
@@ -160,7 +161,9 @@ const Header = () => {
               </Nav>
               <Nav>
                 <Nav.Link onClick={() => handleDarkModeToggle()}>
-                  {darkMode ? <FaSun /> : <FaMoon />}
+                  <div className="theme-icon">
+                    {darkMode ? <FaSun /> : <FaMoon />}
+                  </div>
                 </Nav.Link>
                 <Dropdown>
                   <Dropdown.Toggle
@@ -197,13 +200,22 @@ const Header = () => {
                   </Dropdown.Menu>
                 </Dropdown>
                 <Nav.Link>
-                  <Link path="/about" children={<AiOutlineInfoCircle />} />
+                  <Link
+                    path="/about"
+                    children={
+                      <div className="icon">
+                        <AiOutlineInfoCircle />
+                      </div>
+                    }
+                  />
                 </Nav.Link>
                 <Nav.Link>
                   <Link
                     path="/suggestion"
                     children={
-                      <HiOutlineLightBulb style={{ transform: "scale(1.3)" }} />
+                      <div className="icon">
+                        <HiOutlineLightBulb />
+                      </div>
                     }
                   />
                 </Nav.Link>
