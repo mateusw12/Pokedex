@@ -1,11 +1,10 @@
-import React from "react";
 import "./style.css";
 
 const HomePage = () => {
   return (
     <div className="home-page">
       <img
-        src="/public/assets/home/pokemons.png"
+        src="/assets/home/pokemons.png"
         style={{
           height: "calc(100vh - 155px)",
         }}
