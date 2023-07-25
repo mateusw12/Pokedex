@@ -321,3 +321,26 @@ export const POKEMON_POISON_TYPE: PokemonType[] = [
     img: "/assets/types/poison/arbok.png",
   },
 ];
+
+export const POKEMON_PSYCHIC_TYPE: PokemonType[] = [
+  {
+    key: "mew",
+    name: "Mew",
+    img: "/assets/types/psychic/mew.png",
+  },
+  {
+    key: "alakazam",
+    name: "Alakazam",
+    img: "/assets/types/psychic/alakazam.png",
+  },
+  {
+    key: "hypno",
+    name: "Hypno",
+    img: "/assets/types/psychic/hypno.png",
+  },
+  {
+    key: "unown",
+    name: "Unown",
+    img: "/assets/types/psychic/unown.png",
+  },
+];

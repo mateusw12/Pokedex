@@ -240,3 +240,15 @@ export const POKEMON_POISON_ADVANTAGE = [
     "2": "Psíquico",
   },
 ];
+
+export const POKEMON_PSYCHIC_ADVANTAGE = [
+  {
+    "1": "Lutador",
+    "2": "Terrestre",
+    "3": "Nenhum",
+  },
+  {
+    "1": "Venenoso",
+    "2": "Psíquico",
+  },
+];
