@@ -12,6 +12,7 @@ import Ghostype from "./ghost";
 import GrassType from "./grass";
 import GroundType from "./ground";
 import IceType from "./ice";
+import NormalType from "./normal";
 
 const Types = () => {
   const { type } = useParams();
@@ -65,6 +66,10 @@ const Types = () => {
       ) : type === "ice" ? (
         <>
           <IceType />
+        </>
+      ) : type === "normal" ? (
+        <>
+          <NormalType />
         </>
       ) : (
         <></>

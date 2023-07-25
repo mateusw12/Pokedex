@@ -221,3 +221,10 @@ export const POKEMON_ICE_ADVANTAGE = [
   },
 ];
 
+export const POKEMON_NORMAL_ADVANTAGE = [
+  {
+    "1": "Nenhum",
+    "2": "Lutador",
+    "3": "Fantasma",
+  },
+];

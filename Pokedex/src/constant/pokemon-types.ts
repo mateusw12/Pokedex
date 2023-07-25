@@ -275,3 +275,26 @@ export const POKEMON_ICE_TYPE: PokemonType[] = [
     img: "/assets/types/ice/snorunt.png",
   },
 ];
+
+export const POKEMON_NORMAL_TYPE: PokemonType[] = [
+  {
+    key: "snorlax",
+    name: "Snorlax",
+    img: "/assets/types/normal/snorlax.png",
+  },
+  {
+    key: "eevee",
+    name: "Eevee",
+    img: "/assets/types/normal/eevee.png",
+  },
+  {
+    key: "rattata",
+    name: "Rattata",
+    img: "/assets/types/normal/rattata.png",
+  },
+  {
+    key: "meowth",
+    name: "Meowth",
+    img: "/assets/types/normal/meowth.png",
+  },
+];
