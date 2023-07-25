@@ -7,6 +7,7 @@ import Johto from "./johto";
 import Hoenn from "./hoenn";
 import Sinoh from "./sinoh";
 import Unova from "./unova";
+import Kalos from "./kalos";
 
 const Regions = () => {
   const { region } = useParams();
@@ -40,6 +41,10 @@ const Regions = () => {
       ) : region === "unova" ? (
         <>
           <Unova />
+        </>
+      ) : region === "kalos" ? (
+        <>
+          <Kalos />
         </>
       ) : (
         <> </>
