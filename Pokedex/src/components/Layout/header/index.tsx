@@ -74,8 +74,8 @@ const Header = () => {
                 <Nav.Link>
                   <Link path={"/pokemons"} children={"Pokemons"} />
                 </Nav.Link>
-                <Nav.Link disabled={true}>
-                  <Link path={"/mega"} children={"Mega Evoluções"} />
+                <Nav.Link>
+                  <Link path={"/mega-evolution"} children={"Mega Evoluções"} />
                 </Nav.Link>
                 <Nav.Link
                   href="https://play.google.com/store/apps/details?id=com.pokemontv&hl=pt_BR&gl=US&pli=1"
@@ -94,7 +94,11 @@ const Header = () => {
                       key={type.key}
                       path={`/type/${type.path}`}
                       children={
-                        <NavDropdown.Item key={type.key} disabled={type.disabled} href={`/type/${type.path}`}>
+                        <NavDropdown.Item
+                          key={type.key}
+                          disabled={type.disabled}
+                          href={`/type/${type.path}`}
+                        >
                           {type.img ? (
                             <>
                               <img
@@ -124,7 +128,10 @@ const Header = () => {
                       key={region.key}
                       path={`/region/${region.path}`}
                       children={
-                        <NavDropdown.Item key={region.key} href={`/region/${region.path}`}>
+                        <NavDropdown.Item
+                          key={region.key}
+                          href={`/region/${region.path}`}
+                        >
                           {region.name}
                         </NavDropdown.Item>
                       }

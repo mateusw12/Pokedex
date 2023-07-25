@@ -1,0 +1,46 @@
+.mega-evolution-container {
+    grid-area: content;
+    padding: 20px;
+    overflow-x: hidden;
+}
+
+@media (min-width: 768px) {
+    .mega-evolution-container {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+        align-items: center;
+    }
+}
+
+.mega-evolution-text {
+    text-align: justify;
+    max-width: 100%;
+    font-size: 16px;
+    word-break: break-word;
+}
+
+.mega-evolution-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.mega-evolution-image img {
+    max-height: 300px;
+}
+
+.mega-evolution-title img {
+    max-width: 30px;
+    max-height: 30px;
+}
+
+.mega-evolution-title {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 24px;
+    font-weight: bold;
+}

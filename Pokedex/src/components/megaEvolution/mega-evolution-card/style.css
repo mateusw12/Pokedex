@@ -1,0 +1,44 @@
+.mega-evolution-card {
+    position: relative;
+    background-color: rgba(24, 53, 117, 0.8);
+    box-shadow: 0 4px 9px;
+    border-radius: 8px;
+    padding: 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.3s;
+    width: 35rem;
+    height: 10rem;
+}
+
+.mega-evolution-card-content {
+    margin-bottom: 16px;
+}
+
+.mega-evolution-card-footer {
+    text-align: center;
+}
+
+.mega-evolution-card::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: inherit;
+    z-index: -1;
+    border-radius: 8px;
+    opacity: 0.3;
+}
+
+.mega-evolution-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 12px;
+}
+
+.mega-icon {
+    font-size: 52px;
+}

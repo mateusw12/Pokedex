@@ -6,6 +6,7 @@ import Suggestion from "./components/suggestion";
 import "./App.css";
 import Types from "./components/types";
 import Regions from "./components/region";
+import MegaEvolution from "./components/megaEvolution";
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
           <Route path="/suggestion" element={<Suggestion />}></Route>
           <Route path="/type/:type" element={<Types />}></Route>
           <Route path="/region/:region" element={<Regions />}></Route>
+          <Route path="/mega-evolution" element={<MegaEvolution />}></Route>
         </Routes>
       </BaseLayout>
     </BrowserRouter>
