@@ -252,3 +252,26 @@ export const POKEMON_PSYCHIC_ADVANTAGE = [
     "2": "Psíquico",
   },
 ];
+
+export const POKEMON_ROCK_ADVANTAGE = [
+  {
+    "1": "Inseto",
+    "2": "Lutador",
+    "3": "Nenhum",
+  },
+  {
+    "1": "Fogo",
+    "2": "Planta",
+  },
+  {
+    "1": "Voador",
+    "2": "Terrestre",
+  },
+  {
+    "1": "Gelo",
+    "2": "Água",
+  },
+  {
+    "2": "Aço",
+  },
+];

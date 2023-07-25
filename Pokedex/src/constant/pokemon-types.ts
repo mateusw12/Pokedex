@@ -344,3 +344,26 @@ export const POKEMON_PSYCHIC_TYPE: PokemonType[] = [
     img: "/assets/types/psychic/unown.png",
   },
 ];
+
+export const POKEMON_ROCK_TYPE: PokemonType[] = [
+  {
+    key: "sudowoodo",
+    name: "Sudowoodo",
+    img: "/assets/types/rock/sudowoodo.png",
+  },
+  {
+    key: "regirock",
+    name: "Regirock",
+    img: "/assets/types/rock/regirock.png",
+  },
+  {
+    key: "rampardos",
+    name: "Rampardos",
+    img: "/assets/types/rock/rampardos.png",
+  },
+  {
+    key: "rockruff",
+    name: "Rockruff",
+    img: "/assets/types/rock/rockruff.png",
+  },
+];

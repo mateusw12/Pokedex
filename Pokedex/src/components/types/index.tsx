@@ -15,6 +15,7 @@ import IceType from "./ice";
 import NormalType from "./normal";
 import PoisonType from "./poison";
 import PsychicType from "./psychic";
+import RockType from "./rock";
 
 const Types = () => {
   const { type } = useParams();
@@ -80,6 +81,10 @@ const Types = () => {
       ) : type === "psychic" ? (
         <>
           <PsychicType />
+        </>
+      ) : type === "rock" ? (
+        <>
+          <RockType />
         </>
       ) : (
         <> </>
