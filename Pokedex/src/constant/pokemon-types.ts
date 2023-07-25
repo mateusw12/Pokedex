@@ -2,14 +2,14 @@ import { PokemonType } from "../interface/pokemon-type";
 
 export const POKEMON_BUG_TYPE: PokemonType[] = [
   {
-    key: "heracross",
-    name: "Heracross",
-    img: "/assets/types/bug/heracross.png",
+    key: "pinsir",
+    name: "Pinsir",
+    img: "/assets/types/bug/pinsir.png",
   },
   {
-    key: "buterfree",
-    name: "Buterfree",
-    img: "/assets/types/bug/butterfree.webp",
+    key: "wurmple",
+    name: "Wurmple",
+    img: "/assets/types/bug/wurmple.png",
   },
   {
     key: "caterpie",
@@ -17,17 +17,17 @@ export const POKEMON_BUG_TYPE: PokemonType[] = [
     img: "/assets/types/bug/caterpie.png",
   },
   {
-    key: "sunflora",
-    name: "Sunflora",
-    img: "/assets/types/bug/sunflora.png",
+    key: "grubbin",
+    name: "Grubbin",
+    img: "/assets/types/bug/grubbin.png",
   },
 ];
 
 export const POKEMON_DARK_TYPE: PokemonType[] = [
   {
-    key: "gastly",
-    name: "Gastly",
-    img: "/assets/types/dark/gastly.png",
+    key: "zoroark",
+    name: "Zoroark",
+    img: "/assets/types/dark/zoroark.png",
   },
   {
     key: "darkrai",
@@ -53,19 +53,19 @@ export const POKEMON_DRAGON_TYPE: PokemonType[] = [
     img: "/assets/types/dragon/dratini.png",
   },
   {
-    key: "salamence",
-    name: "Salamence",
-    img: "/assets/types/dragon/salamence.png",
+    key: "bagon",
+    name: "Bagon",
+    img: "/assets/types/dragon/bagon.png",
   },
   {
-    key: "garchomp",
-    name: "Garchomp",
-    img: "/assets/types/dragon/garchomp.png",
+    key: "axew",
+    name: "Axew",
+    img: "/assets/types/dragon/axew.png",
   },
   {
-    key: "hydragon",
-    name: "Hydragon",
-    img: "/assets/types/dragon/hydragon.png",
+    key: "regidrago",
+    name: "Regidrago",
+    img: "/assets/types/dragon/regidrago.png",
   },
 ];
 
@@ -81,14 +81,14 @@ export const POKEMON_ELETRIC_TYPE: PokemonType[] = [
     img: "/assets/types/eletric/raikou.png",
   },
   {
-    key: "electvire",
-    name: "Electvire",
-    img: "/assets/types/eletric/electivire.png",
+    key: "mareep",
+    name: "Mareep",
+    img: "/assets/types/eletric/mareep.png",
   },
   {
-    key: "zapdos",
-    name: "Zapdos",
-    img: "/assets/types/eletric/zapdos.png",
+    key: "electabuzz",
+    name: "Electabuzz",
+    img: "/assets/types/eletric/electabuzz.png",
   },
 ];
 
@@ -99,19 +99,19 @@ export const POKEMON_FAIRY_TYPE: PokemonType[] = [
     img: "/assets/types/fairy/clefable.png",
   },
   {
-    key: "gardevoir",
-    name: "Gardevoir",
-    img: "/assets/types/fairy/gardevoir.png",
+    key: "togepi",
+    name: "Togepi",
+    img: "/assets/types/fairy/togepi.png",
   },
   {
-    key: "rapidash_galar",
-    name: "Rapidash de Galar",
-    img: "/assets/types/fairy/rapidash_galar.png",
+    key: "floette",
+    name: "Floette",
+    img: "/assets/types/fairy/floette.png",
   },
   {
-    key: "togekiss",
-    name: "Togekiss",
-    img: "/assets/types/fairy/togekiss.png",
+    key: "xerneas",
+    name: "Xerneas",
+    img: "/assets/types/fairy/xerneas.png",
   },
 ];
 
@@ -186,19 +186,19 @@ export const POKEMON_FLYING_TYPE: PokemonType[] = [
 
 export const POKEMON_GHOST_TYPE: PokemonType[] = [
   {
-    key: "gengar",
-    name: "Gengar",
-    img: "/assets/types/ghost/gengar.png",
+    key: "duskull",
+    name: "Duskull",
+    img: "/assets/types/ghost/duskull.png",
   },
   {
-    key: "marshadow",
-    name: "Marshadow",
-    img: "/assets/types/ghost/marshadow.png",
+    key: "yamask",
+    name: "Yamask",
+    img: "/assets/types/ghost/yamask.png",
   },
   {
-    key: "giratina",
-    name: "Giratina",
-    img: "/assets/types/ghost/giratina.png",
+    key: "misdreavus",
+    name: "Misdreavus",
+    img: "/assets/types/ghost/misdreavus.png",
   },
   {
     key: "banett",
