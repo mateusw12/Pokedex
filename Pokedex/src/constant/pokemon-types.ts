@@ -114,6 +114,7 @@ export const POKEMON_FAIRY_TYPE: PokemonType[] = [
     img: "/assets/types/fairy/togekiss.png",
   },
 ];
+
 export const POKEMON_FIGHTING_TYPE: PokemonType[] = [
   {
     key: "machop",
@@ -134,5 +135,28 @@ export const POKEMON_FIGHTING_TYPE: PokemonType[] = [
     key: "hariyama",
     name: "Hariyama",
     img: "/assets/types/fighting/haryama.webp",
+  },
+];
+
+export const POKEMON_FIRE_TYPE: PokemonType[] = [
+  {
+    key: "charmander",
+    name: "Charmander",
+    img: "/assets/types/fire/charmander.webp",
+  },
+  {
+    key: "entei",
+    name: "Entei",
+    img: "/assets/types/fire/entei.png",
+  },
+  {
+    key: "arcanaine",
+    name: "Arcanaine",
+    img: "/assets/types/fire/arcanaine.png",
+  },
+  {
+    key: "vulpix",
+    name: "Vulpix",
+    img: "/assets/types/fire/vulpix.png",
   },
 ];

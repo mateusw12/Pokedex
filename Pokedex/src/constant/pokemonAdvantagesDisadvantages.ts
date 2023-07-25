@@ -105,3 +105,23 @@ export const POKEMON_FIGHTING_ADVANTAGE = [
     "1": "Aço",
   },
 ];
+
+export const POKEMON_FIRE_ADVANTAGE = [
+  {
+    "1": "Inseto",
+    "2": "Pedra",
+    "3": "Nenhum",
+  },
+  {
+    "1": "Gelo",
+    "2": "Terrestre",
+  },
+  {
+    "1": "Planta",
+    "2": "Água",
+  },
+  {
+    "1": "Aço",
+  },
+];
+
