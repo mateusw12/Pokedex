@@ -85,27 +85,8 @@ const Header = () => {
                   <>Assistir Anime</>
                 </Nav.Link>
                 <NavDropdown
-                  title="Mundos"
-                  id="basic-nav-dropdown"
-                  style={{ color: "#FFF" }}
-                >
-                  {POKE_REGIONS.map((region) => (
-                    <Link
-                      path={region.disabled ? "" : `/region/${region.path}`}
-                      children={
-                        <NavDropdown.Item
-                          disabled={region.disabled}
-                          itemID={region.key}
-                        >
-                          {region.name}
-                        </NavDropdown.Item>
-                      }
-                    />
-                  ))}
-                </NavDropdown>
-                <NavDropdown
                   title="Natureza"
-                  id="basic-nav-dropdown"
+                  id="natureza-nav-dropdown"
                   className="limit-item-dropdown limit-item-dropdown-natureza"
                 >
                   {POKE_TYPES.map((type) => (
@@ -113,10 +94,7 @@ const Header = () => {
                       key={type.key}
                       path={`/type/${type.path}`}
                       children={
-                        <NavDropdown.Item
-                          disabled={type.disabled}
-                          itemID={type.key}
-                        >
+                        <NavDropdown.Item key={type.key} disabled={type.disabled} href={`/type/${type.path}`}>
                           {type.img ? (
                             <>
                               <img
@@ -137,18 +115,32 @@ const Header = () => {
                   ))}
                 </NavDropdown>
                 <NavDropdown
+                  title="Mundos"
+                  id="nature-nav-dropdown"
+                  className="limit-item-dropdown limit-item-dropdown-natureza"
+                >
+                  {POKE_REGIONS.map((region) => (
+                    <Link
+                      key={region.key}
+                      path={`/region/${region.path}`}
+                      children={
+                        <NavDropdown.Item key={region.key} href={`/region/${region.path}`}>
+                          {region.name}
+                        </NavDropdown.Item>
+                      }
+                    />
+                  ))}
+                </NavDropdown>
+                <NavDropdown
                   title="Pokemon GO"
                   id="basic-nav-dropdown"
                   className="limit-item-dropdown"
                 >
                   {POKEMON_GO.map((game) => (
                     <Link
-                      path={game.disabled ? "" : `/game/${game.path}`}
+                      path={`/game/${game.path}`}
                       children={
-                        <NavDropdown.Item
-                          disabled={game.disabled}
-                          itemID={game.key}
-                        >
+                        <NavDropdown.Item itemID={game.key}>
                           {game.icon && (
                             <game.icon className="d-inline-block align-middle me-2" />
                           )}

@@ -11,7 +11,7 @@ const CompleteTableType = () => {
               <h1>Table Completa:</h1>
             </div>
             <div className="type-text">
-              <img src="/public/assets/types/table/tabela.jpg" />
+              <img src="/assets/types/table/tabela.jpg" />
             </div>
           </div>
         </div>

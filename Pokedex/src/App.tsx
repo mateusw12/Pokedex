@@ -5,6 +5,7 @@ import About from "./components/about";
 import Suggestion from "./components/suggestion";
 import "./App.css";
 import Types from "./components/types";
+import Regions from "./components/region";
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
           <Route path="/about" element={<About />}></Route>
           <Route path="/suggestion" element={<Suggestion />}></Route>
           <Route path="/type/:type" element={<Types />}></Route>
+          <Route path="/region/:region" element={<Regions />}></Route>
         </Routes>
       </BaseLayout>
     </BrowserRouter>
