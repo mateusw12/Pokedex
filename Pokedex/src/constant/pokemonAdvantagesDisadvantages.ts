@@ -178,3 +178,25 @@ export const POKEMON_GRASS_ADVANTAGE = [
     "2": "Venenoso",
   },
 ];
+
+export const POKEMON_GROUND_ADVANTAGE = [
+  {
+    "1": "Elétrico",
+    "2": "Gelo",
+    "3": "Elétrico",
+  },
+  {
+    "1": "Fogo",
+    "2": "Planta",
+  },
+  {
+    "1": "Venenoso",
+    "2": "Água",
+  },
+  {
+    "1": "Pedra",
+  },
+  {
+    "1": "Aço",
+  },
+];

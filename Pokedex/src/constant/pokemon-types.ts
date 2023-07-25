@@ -229,3 +229,26 @@ export const POKEMON_GRASS_TYPE: PokemonType[] = [
     img: "/assets/types/grass/chikorita.webp",
   },
 ];
+
+export const POKEMON_GROUND_TYPE: PokemonType[] = [
+  {
+    key: "cubone",
+    name: "Cubone",
+    img: "/assets/types/ground/cubone.webp",
+  },
+  {
+    key: "groudon",
+    name: "Groudon",
+    img: "/assets/types/ground/groudon.webp",
+  },
+  {
+    key: "hipopotas",
+    name: "Hipopotas",
+    img: "/assets/types/ground/hipopotas.png",
+  },
+  {
+    key: "sandshrew",
+    name: "Sandshrew",
+    img: "/assets/types/ground/sandshrew.webp",
+  },
+];

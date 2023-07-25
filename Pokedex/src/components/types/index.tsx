@@ -10,6 +10,7 @@ import FireType from "./fire";
 import FlyingType from "./flying";
 import Ghostype from "./ghost";
 import GrassType from "./grass";
+import GroundType from "./ground";
 
 const Types = () => {
   const { type } = useParams();
@@ -55,6 +56,10 @@ const Types = () => {
       ) : type === "grass" ? (
         <>
           <GrassType />
+        </>
+      ) : type === "ground" ? (
+        <>
+          <GroundType />
         </>
       ) : (
         <> </>
