@@ -5,6 +5,7 @@ import Galar from "./galar";
 import Kanto from "./kanto";
 import Johto from "./johto";
 import Hoenn from "./hoenn";
+import Sinoh from "./sinoh";
 
 const Regions = () => {
   const { region } = useParams();
@@ -31,8 +32,12 @@ const Regions = () => {
         <>
           <Hoenn />
         </>
+      ) : region === "sinoh" ? (
+        <>
+          <Sinoh />
+        </>
       ) : (
-        <></>
+        <> </>
       )}
     </>
   );
