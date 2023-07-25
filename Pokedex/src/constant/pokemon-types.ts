@@ -252,3 +252,26 @@ export const POKEMON_GROUND_TYPE: PokemonType[] = [
     img: "/assets/types/ground/sandshrew.webp",
   },
 ];
+
+export const POKEMON_ICE_TYPE: PokemonType[] = [
+  {
+    key: "avalugg",
+    name: "Avalugg",
+    img: "/assets/types/ice/avalugg.png",
+  },
+  {
+    key: "regice",
+    name: "Regice",
+    img: "/assets/types/ice/regice.webp",
+  },
+  {
+    key: "glaceon",
+    name: "Glaceon",
+    img: "/assets/types/ice/glaceon.png",
+  },
+  {
+    key: "snorunt",
+    name: "Snorunt",
+    img: "/assets/types/ice/snorunt.png",
+  },
+];

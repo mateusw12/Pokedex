@@ -200,3 +200,24 @@ export const POKEMON_GROUND_ADVANTAGE = [
     "1": "Aço",
   },
 ];
+
+export const POKEMON_ICE_ADVANTAGE = [
+  {
+    "1": "Dragão",
+    "2": "Lutador",
+    "3": "Nenhum",
+  },
+  {
+    "1": "Voador",
+    "2": "Fogo",
+  },
+  {
+    "1": "Planta",
+    "2": "Pedra",
+  },
+  {
+    "1": "Terrestre",
+    "2": "Aço",
+  },
+];
+
