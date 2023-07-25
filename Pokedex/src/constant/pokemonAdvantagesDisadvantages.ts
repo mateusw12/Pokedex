@@ -125,3 +125,18 @@ export const POKEMON_FIRE_ADVANTAGE = [
   },
 ];
 
+export const POKEMON_FLYING_ADVANTAGE = [
+  {
+    "1": "Inseto",
+    "2": "Elétrico",
+    "3": "Terrestre",
+  },
+  {
+    "1": "Lutador",
+    "2": "Gelo",
+  },
+  {
+    "1": "Planta",
+    "2": "Pedra",
+  },
+];

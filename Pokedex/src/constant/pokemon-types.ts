@@ -160,3 +160,26 @@ export const POKEMON_FIRE_TYPE: PokemonType[] = [
     img: "/assets/types/fire/vulpix.png",
   },
 ];
+
+export const POKEMON_FLYING_TYPE: PokemonType[] = [
+  {
+    key: "pidgeotto",
+    name: "Pidgeotto",
+    img: "/assets/types/flying/pidgeotto.webp",
+  },
+  {
+    key: "staraptor",
+    name: "Staraptor",
+    img: "/assets/types/flying/staraptor.png",
+  },
+  {
+    key: "taillow",
+    name: "Taillow",
+    img: "/assets/types/flying/taillow.png",
+  },
+  {
+    key: "fletchling",
+    name: "Fletchling",
+    img: "/assets/types/flying/fletchling.png",
+  },
+];

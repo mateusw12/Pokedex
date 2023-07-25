@@ -7,6 +7,7 @@ import EletricType from "./eletric";
 import FairyType from "./fairy";
 import FightingType from "./fighting";
 import FireType from "./fire";
+import FlyingType from "./flying";
 
 const Types = () => {
   const { type } = useParams();
@@ -35,12 +36,15 @@ const Types = () => {
         </>
       ) : type === "fighting" ? (
         <>
-          {" "}
           <FightingType />
         </>
       ) : type === "fire" ? (
         <>
           <FireType />
+        </>
+      ) : type === "flying" ? (
+        <>
+          <FlyingType />
         </>
       ) : (
         <> </>
