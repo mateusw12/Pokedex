@@ -78,7 +78,7 @@ const Header = () => {
                   <Link path={"/mega"} children={"Mega Evoluções"} />
                 </Nav.Link>
                 <Nav.Link
-                  href="https://www.pokemon.com/br/episodios-pokemon/"
+                  href="https://play.google.com/store/apps/details?id=com.pokemontv&hl=pt_BR&gl=US&pli=1"
                   target="_blanck"
                   rel="noopener noreferrer"
                 >
