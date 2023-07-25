@@ -8,6 +8,7 @@ import Hoenn from "./hoenn";
 import Sinoh from "./sinoh";
 import Unova from "./unova";
 import Kalos from "./kalos";
+import OrangeIslands from "./orangeIslands";
 
 const Regions = () => {
   const { region } = useParams();
@@ -45,6 +46,10 @@ const Regions = () => {
       ) : region === "kalos" ? (
         <>
           <Kalos />
+        </>
+      ) : region === "orangeIslands" ? (
+        <>
+          <OrangeIslands />
         </>
       ) : (
         <> </>
