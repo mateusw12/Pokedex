@@ -17,9 +17,9 @@ export const POKE_REGIONS: PokeRegion[] = [
     path: "kanto",
   },
   {
-    key: "jotho",
+    key: "johto",
     name: "Johto",
-    path: "jotho",
+    path: "johto",
   },
   {
     key: "hoem",

@@ -3,6 +3,7 @@ import "./style.css";
 import Alola from "./alola";
 import Galar from "./galar";
 import Kanto from "./kanto";
+import Johto from "./johto";
 
 const Regions = () => {
   const { region } = useParams();
@@ -20,6 +21,10 @@ const Regions = () => {
       ) : region === "kanto" ? (
         <>
           <Kanto />
+        </>
+      ) : region === "johto" ? (
+        <>
+          <Johto />
         </>
       ) : (
         <> </>
