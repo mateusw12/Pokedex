@@ -4,6 +4,7 @@ import Alola from "./alola";
 import Galar from "./galar";
 import Kanto from "./kanto";
 import Johto from "./johto";
+import Hoenn from "./hoenn";
 
 const Regions = () => {
   const { region } = useParams();
@@ -26,8 +27,12 @@ const Regions = () => {
         <>
           <Johto />
         </>
+      ) : region === "hoenn" ? (
+        <>
+          <Hoenn />
+        </>
       ) : (
-        <> </>
+        <></>
       )}
     </>
   );
