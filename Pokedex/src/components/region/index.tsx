@@ -6,6 +6,7 @@ import Kanto from "./kanto";
 import Johto from "./johto";
 import Hoenn from "./hoenn";
 import Sinoh from "./sinoh";
+import Unova from "./unova";
 
 const Regions = () => {
   const { region } = useParams();
@@ -35,6 +36,10 @@ const Regions = () => {
       ) : region === "sinoh" ? (
         <>
           <Sinoh />
+        </>
+      ) : region === "unova" ? (
+        <>
+          <Unova />
         </>
       ) : (
         <> </>
