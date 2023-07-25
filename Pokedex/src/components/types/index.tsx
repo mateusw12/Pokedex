@@ -18,6 +18,7 @@ import PsychicType from "./psychic";
 import RockType from "./rock";
 import SteelType from "./steel";
 import WaterType from "./water";
+import CompleteTableType from "./completeTable";
 
 const Types = () => {
   const { type } = useParams();
@@ -95,6 +96,10 @@ const Types = () => {
       ) : type === "water" ? (
         <>
           <WaterType />
+        </>
+      ) : type === "completeTable" ? (
+        <>
+          <CompleteTableType />
         </>
       ) : (
         <> </>
