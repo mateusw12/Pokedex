@@ -140,3 +140,19 @@ export const POKEMON_FLYING_ADVANTAGE = [
     "2": "Pedra",
   },
 ];
+
+export const POKEMON_GHOST_ADVANTAGE = [
+  {
+    "1": "Fantasma",
+    "2": "Sombrio",
+    "3": "Normal",
+  },
+  {
+    "1": "Psíquico",
+    "2": "Fantasma",
+    "3": "Lutador",
+  },
+  {
+    "2": "Pedra",
+  },
+];

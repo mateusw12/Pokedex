@@ -183,3 +183,26 @@ export const POKEMON_FLYING_TYPE: PokemonType[] = [
     img: "/assets/types/flying/fletchling.png",
   },
 ];
+
+export const POKEMON_GHOST_TYPE: PokemonType[] = [
+  {
+    key: "gengar",
+    name: "Gengar",
+    img: "/assets/types/ghost/gengar.png",
+  },
+  {
+    key: "marshadow",
+    name: "Marshadow",
+    img: "/assets/types/ghost/marshadow.png",
+  },
+  {
+    key: "giratina",
+    name: "Giratina",
+    img: "/assets/types/ghost/giratina.png",
+  },
+  {
+    key: "banett",
+    name: "Banett",
+    img: "/assets/types/ghost/banett.png",
+  },
+];
