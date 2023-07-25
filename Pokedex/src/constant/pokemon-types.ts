@@ -206,3 +206,26 @@ export const POKEMON_GHOST_TYPE: PokemonType[] = [
     img: "/assets/types/ghost/banett.png",
   },
 ];
+
+export const POKEMON_GRASS_TYPE: PokemonType[] = [
+  {
+    key: "bulbassauro",
+    name: "Bulbassauro",
+    img: "/assets/types/grass/bulbassauro.webp",
+  },
+  {
+    key: "cacnea",
+    name: "Cacnea",
+    img: "/assets/types/grass/cacnea.png",
+  },
+  {
+    key: "turtwig",
+    name: "Turtwig",
+    img: "/assets/types/grass/turtwig.png",
+  },
+  {
+    key: "chikorita",
+    name: "Chikorita",
+    img: "/assets/types/grass/chikorita.webp",
+  },
+];

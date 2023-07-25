@@ -156,3 +156,25 @@ export const POKEMON_GHOST_ADVANTAGE = [
     "2": "Pedra",
   },
 ];
+
+export const POKEMON_GRASS_ADVANTAGE = [
+  {
+    "1": "Terrestre",
+    "2": "Inseto",
+    "3": "Nenhum",
+  },
+  {
+    "1": "Pedra",
+    "2": "Fogo",
+  },
+  {
+    "1": "Água",
+    "2": "Voador",
+  },
+  {
+    "2": "Gelo",
+  },
+  {
+    "2": "Venenoso",
+  },
+];

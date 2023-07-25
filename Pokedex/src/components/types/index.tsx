@@ -9,6 +9,7 @@ import FightingType from "./fighting";
 import FireType from "./fire";
 import FlyingType from "./flying";
 import Ghostype from "./ghost";
+import GrassType from "./grass";
 
 const Types = () => {
   const { type } = useParams();
@@ -51,8 +52,12 @@ const Types = () => {
         <>
           <Ghostype />
         </>
+      ) : type === "grass" ? (
+        <>
+          <GrassType />
+        </>
       ) : (
-        <></>
+        <> </>
       )}
     </>
   );
