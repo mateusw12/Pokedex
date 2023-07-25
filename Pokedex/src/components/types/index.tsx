@@ -17,6 +17,7 @@ import PoisonType from "./poison";
 import PsychicType from "./psychic";
 import RockType from "./rock";
 import SteelType from "./steel";
+import WaterType from "./water";
 
 const Types = () => {
   const { type } = useParams();
@@ -90,6 +91,10 @@ const Types = () => {
       ) : type === "steel" ? (
         <>
           <SteelType />
+        </>
+      ) : type === "water" ? (
+        <>
+          <WaterType />
         </>
       ) : (
         <> </>

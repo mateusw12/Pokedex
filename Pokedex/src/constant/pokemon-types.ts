@@ -390,3 +390,26 @@ export const POKEMON_STEEL_TYPE: PokemonType[] = [
     img: "/assets/types/steel/melmetal.png",
   },
 ];
+
+export const POKEMON_WATER_TYPE: PokemonType[] = [
+  {
+    key: "shellder",
+    name: "Shellder",
+    img: "/assets/types/water/shellder.png",
+  },
+  {
+    key: "kyogre",
+    name: "Kyogre",
+    img: "/assets/types/water/kyogre.png",
+  },
+  {
+    key: "blastoise",
+    name: "Blastoise",
+    img: "/assets/types/water/blastoise.png",
+  },
+  {
+    key: "vaporeon",
+    name: "Vaporeon",
+    img: "/assets/types/water/vaporeon.png",
+  },
+];

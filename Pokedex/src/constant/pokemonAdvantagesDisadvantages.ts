@@ -291,3 +291,18 @@ export const POKEMON_STEEL_ADVANTAGE = [
     "2": "Terrestre",
   },
 ];
+
+export const POKEMON_WATER_ADVANTAGE = [
+  {
+    "1": "Fogo",
+    "2": "Elétrico",
+    "3": "Nenhum",
+  },
+  {
+    "1": "Terrestre",
+    "2": "Planta",
+  },
+  {
+    "1": "Pedra",
+  },
+];
