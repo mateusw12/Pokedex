@@ -102,7 +102,7 @@ export const POKE_TYPES: PokeTypes[] = [
   },
   {
     key: "poison",
-    name: "Planta",
+    name: "Venenoso",
     path: "poison",
     disabled: true,
     img: `${absolutePath}poison.png`,

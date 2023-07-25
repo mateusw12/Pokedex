@@ -228,3 +228,15 @@ export const POKEMON_NORMAL_ADVANTAGE = [
     "3": "Fantasma",
   },
 ];
+
+export const POKEMON_POISON_ADVANTAGE = [
+  {
+    "1": "Fada",
+    "2": "Terrestre",
+    "3": "Nenhum",
+  },
+  {
+    "1": "Planta",
+    "2": "Psíquico",
+  },
+];

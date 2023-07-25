@@ -298,3 +298,26 @@ export const POKEMON_NORMAL_TYPE: PokemonType[] = [
     img: "/assets/types/normal/meowth.png",
   },
 ];
+
+export const POKEMON_POISON_TYPE: PokemonType[] = [
+  {
+    key: "swalot",
+    name: "Swalot",
+    img: "/assets/types/poison/swalot.png",
+  },
+  {
+    key: "grimer",
+    name: "Grimer",
+    img: "/assets/types/poison/grimer.png",
+  },
+  {
+    key: "weezing",
+    name: "Weezing",
+    img: "/assets/types/poison/weezing.png",
+  },
+  {
+    key: "arbok",
+    name: "Arbok",
+    img: "/assets/types/poison/arbok.png",
+  },
+];
