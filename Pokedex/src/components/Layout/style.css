@@ -11,16 +11,14 @@
         "header header"
         "content content"
         "footer footer";
-    min-height: 100vh;
-    overflow-y: hidden;
+    max-height: 100vh;
+    overflow: hidden;
 }
 
 .main {
     grid-area: content;
     padding: 20px;
     overflow-y: auto;
-    overflow-x: hidden;
-    /* Adicionado para evitar scroll horizontal */
 }
 
 .limit-item-dropdown .dropdown-menu {
