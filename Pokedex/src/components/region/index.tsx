@@ -1,6 +1,7 @@
 import { useParams } from "react-router-dom";
 import "./style.css";
 import Alola from "./alola";
+import Galar from "./galar";
 
 const Regions = () => {
   const { region } = useParams();
@@ -11,8 +12,12 @@ const Regions = () => {
         <>
           <Alola />
         </>
+      ) : region === "galar" ? (
+        <>
+          <Galar />
+        </>
       ) : (
-        <></>
+        <> </>
       )}
     </>
   );
