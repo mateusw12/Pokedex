@@ -367,3 +367,26 @@ export const POKEMON_ROCK_TYPE: PokemonType[] = [
     img: "/assets/types/rock/rockruff.png",
   },
 ];
+
+export const POKEMON_STEEL_TYPE: PokemonType[] = [
+  {
+    key: "registeel",
+    name: "Registeel",
+    img: "/assets/types/steel/registeel.png",
+  },
+  {
+    key: "klink",
+    name: "Klink",
+    img: "/assets/types/steel/klink.png",
+  },
+  {
+    key: "cufant",
+    name: "Cufant",
+    img: "/assets/types/steel/cufant.png",
+  },
+  {
+    key: "melmetal",
+    name: "Melmetal",
+    img: "/assets/types/steel/melmetal.png",
+  },
+];

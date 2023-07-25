@@ -275,3 +275,19 @@ export const POKEMON_ROCK_ADVANTAGE = [
     "2": "Aço",
   },
 ];
+
+export const POKEMON_STEEL_ADVANTAGE = [
+  {
+    "1": "Fada",
+    "2": "Lutador",
+    "3": "Venenoso",
+  },
+  {
+    "1": "Gelo",
+    "2": "Fogo",
+  },
+  {
+    "1": "Pedra",
+    "2": "Terrestre",
+  },
+];
