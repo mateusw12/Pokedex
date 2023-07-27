@@ -7,6 +7,7 @@ import "./App.css";
 import Types from "./components/types";
 import Regions from "./components/region";
 import MegaEvolution from "./components/megaEvolution";
+import PokemonMegaEvolution from "./components/pokemon-mega-evolution";
 
 function App() {
   return (
@@ -19,10 +20,13 @@ function App() {
           <Route path="/type/:type" element={<Types />}></Route>
           <Route path="/region/:region" element={<Regions />}></Route>
           <Route path="/mega-evolution" element={<MegaEvolution />}></Route>
+          <Route
+            path="/mega-evolution-visible"
+            element={<PokemonMegaEvolution />}
+          ></Route>
         </Routes>
       </BaseLayout>
     </BrowserRouter>
   );
 }
-
 export default App;
