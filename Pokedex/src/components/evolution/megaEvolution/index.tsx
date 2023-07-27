@@ -1,6 +1,8 @@
 import { Row } from "antd";
-import "./style.css";
-import MegaEvolutionCard from "./mega-evolution-card";
+import { IconType } from "react-icons";
+import { FaDragon } from "react-icons/fa";
+import EvolutionCard from "../evolution-card";
+import "../style.css";
 
 const MegaEvolution = () => {
   return (
@@ -52,7 +54,11 @@ const MegaEvolution = () => {
               src="/assets/mega-evolution/mega-evolution.png"
               alt="Símbolo Mega Evolução"
             />
-            <MegaEvolutionCard />
+            <EvolutionCard
+              icon={FaDragon as IconType}
+              title={"Mostrar Mega Evoluções"}
+              path={"/mega-evolution-visible"}
+            />
           </div>
         </div>
       </Row>
