@@ -49,8 +49,8 @@ const MegaEvolution = () => {
           </div>
           <div className="mega-evolution-image">
             <img
-              src="/public/assets/mega-evolution/mega-evolution.png"
-              alt="Paisagem 2"
+              src="/assets/mega-evolution/mega-evolution.png"
+              alt="Símbolo Mega Evolução"
             />
             <MegaEvolutionCard />
           </div>
