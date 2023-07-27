@@ -1,6 +1,6 @@
 import { FaDragon } from "react-icons/fa";
 import "./style.css";
-import Link from "../../utils/link";
+import Link from "../../../utils/link";
 
 const MegaEvolutionCard = () => {
   return (

@@ -15,6 +15,7 @@ import { Dropdown } from "react-bootstrap";
 import LanguageSelector from "../../utils/languageSelector";
 import { LANGUAGES } from "../../../constant/language";
 import { Language } from "../../../interface/language";
+import { POKE_EVOLUTIONS } from "../../../constant/evolutions";
 
 const Header = () => {
   const [darkMode, setDarkMode] = useState(false);
@@ -74,9 +75,6 @@ const Header = () => {
                 <Nav.Link>
                   <Link path={"/pokemons"} children={"Pokemons"} />
                 </Nav.Link>
-                <Nav.Link>
-                  <Link path={"/mega-evolution"} children={"Mega Evoluções"} />
-                </Nav.Link>
                 <Nav.Link
                   href="https://play.google.com/store/apps/details?id=com.pokemontv&hl=pt_BR&gl=US&pli=1"
                   target="_blanck"
@@ -84,6 +82,29 @@ const Header = () => {
                 >
                   <>Assistir Anime</>
                 </Nav.Link>
+                <NavDropdown
+                  title="Evoluções"
+                  id="evolution-nav-dropdown"
+                  className="limit-item-dropdown limit-item-dropdown-natureza"
+                >
+                  {POKE_EVOLUTIONS.map((evolution) => (
+                    <Link
+                      key={evolution.key}
+                      path={`/evolution/${evolution.path}`}
+                      children={
+                        <NavDropdown.Item
+                          key={evolution.key}
+                          href={`/evolution/${evolution.path}`}
+                        >
+                          {evolution.name}
+                        </NavDropdown.Item>
+                      }
+                    />
+                  ))}
+                </NavDropdown>
+                {/* <Nav.Link>
+                  <Link path={"/mega-evolution"} children={"Mega Evoluções"} />
+                </Nav.Link> */}
                 <NavDropdown
                   title="Natureza"
                   id="natureza-nav-dropdown"
