@@ -1,8 +1,7 @@
-import React from "react";
 import { FaInfoCircle } from "react-icons/fa";
 import { POKE_TYPES } from "../../../constant/types";
-import "./style.css";
 import { Link } from "react-router-dom";
+import "./style.css";
 
 interface MegaPokemonCardProps {
   name: string;

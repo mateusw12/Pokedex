@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import { Input, Select } from "antd";
 import MegaPokemonCard from "./card";
 import { POKE_MEGA_EVOLUTION } from "../../constant/mega-evolution";
