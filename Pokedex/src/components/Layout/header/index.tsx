@@ -102,9 +102,6 @@ const Header = () => {
                     />
                   ))}
                 </NavDropdown>
-                {/* <Nav.Link>
-                  <Link path={"/mega-evolution"} children={"Mega Evoluções"} />
-                </Nav.Link> */}
                 <NavDropdown
                   title="Natureza"
                   id="natureza-nav-dropdown"

@@ -1,0 +1,77 @@
+.mega-pokemon-card {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px;
+    width: 15rem;
+}
+
+.dark-mode .mega-pokemon-card {
+    background-color: rgb(33, 37, 41);
+}
+
+.mega-pokemon-card-header {
+    background-color: #183575;
+    color: #fff;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 5px;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    text-align: center;
+}
+
+.mega-pokemon-card-content img {
+    display: block;
+    width: 100%;
+    max-width: 160px;
+    margin: 0 auto;
+    padding: 8px;
+    height: 9rem;
+}
+
+.mega-pokemon-card-footer {
+    background-color: #183575;
+    color: #fff;
+    padding: 8px;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+}
+
+.mega-pokemon-types {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.mega-pokemon-type {
+    background-color: #fff;
+    color: #183575;
+    border-radius: 16px;
+    padding: 4px 8px;
+    margin-left: 4px;
+}
+
+.mega-pokemon-evolution {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    cursor: pointer;
+}
+
+.mega-pokemon-info-icon {
+    font-size: 20px;
+}
+
+.evolution-link {
+    display: flex;
+    justify-content: space-between;
+}
+
+.evolution-link:hover {
+    transform: scale(1.3);
+    transition: 0.4s;
+}
+
+.type-img:hover {
+    transform: scale(1.3);
+    transition: 0.4s;
+}
