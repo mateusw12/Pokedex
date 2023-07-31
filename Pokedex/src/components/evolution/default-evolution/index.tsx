@@ -54,7 +54,7 @@ const DefaultEvolution = () => {
           <div className="mega-evolution-image">
             <img
               src="/public/assets/default-evolution/evolution1.png"
-              alt="Símbolo Gigantamax"
+              alt="Pokemons e suas evoluç~eos"
             />
           </div>
         </div>
