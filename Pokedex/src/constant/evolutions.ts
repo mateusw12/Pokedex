@@ -1,5 +1,10 @@
 export const POKE_EVOLUTIONS = [
   {
+    key: "evolution",
+    name: "Evolução Padrão",
+    path: "default",
+  },
+  {
     key: "gigantamax",
     name: "Gigantamax",
     path: "gigantamax",

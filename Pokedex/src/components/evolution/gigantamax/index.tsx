@@ -50,7 +50,7 @@ const Gigantamax = () => {
           </div>
           <div className="mega-evolution-image">
             <img
-              src="/public/assets/gigantamax/gigantamax.png"
+              src="/assets/gigantamax/gigantamax.png"
               alt="Símbolo Gigantamax"
             />
             <EvolutionCard

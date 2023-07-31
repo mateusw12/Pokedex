@@ -3,6 +3,7 @@ import MegaEvolution from "./megaEvolution";
 import Gigantamax from "./gigantamax";
 import "./style.css";
 import Primal from "./primal";
+import DefaultEvolution from "./default-evolution";
 
 const Evolution = () => {
   const { evolution } = useParams();
@@ -20,6 +21,10 @@ const Evolution = () => {
       ) : evolution === "primal" ? (
         <>
           <Primal />
+        </>
+      ) : evolution === "default" ? (
+        <>
+          <DefaultEvolution />
         </>
       ) : (
         <> </>

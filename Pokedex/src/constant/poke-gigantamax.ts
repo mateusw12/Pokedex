@@ -1,6 +1,6 @@
 import { MegaEvolution } from "../interface/mega-evolution";
 
-const absolutePath = "/public/assets/gigantamax/";
+const absolutePath = "/assets/gigantamax/";
 
 export const POKE_GIGANTAMAX: MegaEvolution[] = [
   {
