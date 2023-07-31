@@ -8,6 +8,7 @@ import Types from "./components/types";
 import Regions from "./components/region";
 import PokemonMegaEvolution from "./components/pokemon-mega-evolution";
 import Evolution from "./components/evolution";
+import PokemonGigantamax from "./components/pokemon-gigantamax";
 
 function App() {
   return (
@@ -23,6 +24,10 @@ function App() {
           <Route
             path="/mega-evolution-visible"
             element={<PokemonMegaEvolution />}
+          ></Route>
+          <Route
+            path="/gigantamax-visible"
+            element={<PokemonGigantamax />}
           ></Route>
         </Routes>
       </BaseLayout>
