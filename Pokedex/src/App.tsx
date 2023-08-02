@@ -10,6 +10,7 @@ import PokemonMegaEvolution from "./components/pokemon-mega-evolution";
 import Evolution from "./components/evolution";
 import PokemonGigantamax from "./components/pokemon-gigantamax";
 import PokemonPrimal from "./components/pokemon-primal";
+import PokemonGo from "./components/pokemon-go";
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
         <Routes>
           <Route path="/" element={<HomePage />}></Route>
           <Route path="/about" element={<About />}></Route>
+          <Route path="/game/:page" element={<PokemonGo />}></Route>
           <Route path="/suggestion" element={<Suggestion />}></Route>
           <Route path="/type/:type" element={<Types />}></Route>
           <Route path="/region/:region" element={<Regions />}></Route>
@@ -30,10 +32,7 @@ function App() {
             path="/gigantamax-visible"
             element={<PokemonGigantamax />}
           ></Route>
-          <Route
-            path="/primal-visible"
-            element={<PokemonPrimal />}
-          ></Route>
+          <Route path="/primal-visible" element={<PokemonPrimal />}></Route>
         </Routes>
       </BaseLayout>
     </BrowserRouter>

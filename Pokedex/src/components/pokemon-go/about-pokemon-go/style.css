@@ -1,11 +1,11 @@
-.about-container {
+.region-container {
     grid-area: content;
     padding: 20px;
     overflow-x: hidden;
 }
 
 @media (min-width: 768px) {
-    .about-container {
+    .region-container {
         display: grid;
         grid-template-columns: 1fr 1fr;
         gap: 20px;
@@ -13,22 +13,35 @@
     }
 }
 
-.about-text {
+.region-text {
     text-align: justify;
     max-width: 100%;
     font-size: 16px;
     word-break: break-word;
 }
 
-.about-image {
+.region-image {
     display: flex;
-    flex-direction: row;
     justify-content: center;
     align-items: center;
-    max-width: 100%;
-    gap: 20px;
+    flex-wrap: wrap;
+    gap: 15px;
 }
 
-.about-image img {
+.region-image img {
     max-height: 300px;
+    box-shadow: 0 4px 8px;
+}
+
+.region-title img {
+    max-width: 30px;
+    max-height: 30px;
+}
+
+.region-title {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 24px;
+    font-weight: bold;
 }

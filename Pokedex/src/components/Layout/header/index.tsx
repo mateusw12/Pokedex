@@ -165,7 +165,10 @@ const Header = () => {
                     <Link
                       path={`/game/${game.path}`}
                       children={
-                        <NavDropdown.Item itemID={game.key}>
+                        <NavDropdown.Item
+                          itemID={game.key}
+                          href={`/game/${game.path}`}
+                        >
                           {game.icon && (
                             <game.icon className="d-inline-block align-middle me-2" />
                           )}
