@@ -11,6 +11,7 @@ import Evolution from "./components/evolution";
 import PokemonGigantamax from "./components/pokemon-gigantamax";
 import PokemonPrimal from "./components/pokemon-primal";
 import PokemonGo from "./components/pokemon-go";
+import Pokemon from "./components/pokemon/pokemon";
 
 function App() {
   return (
@@ -24,6 +25,7 @@ function App() {
           <Route path="/type/:type" element={<Types />}></Route>
           <Route path="/region/:region" element={<Regions />}></Route>
           <Route path="/evolution/:evolution" element={<Evolution />}></Route>
+          <Route path="/pokemons" element={<Pokemon />}></Route>
           <Route
             path="/mega-evolution-visible"
             element={<PokemonMegaEvolution />}
