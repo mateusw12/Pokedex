@@ -54,7 +54,7 @@ const AboutPokemonGo = () => {
           </div>
         </div>
         <div className="region-image">
-          <img src="assets/pokemon-go/simbol.jpg" alt="Meowth" />
+          <img src="/assets/pokemon-go/simbol.jpg" alt="Meowth" />
           <EvolutionCard
             path={"https://pokemongolive.com/?hl=pt_BR"}
             icon={FaExternalLinkAlt as IconType}
